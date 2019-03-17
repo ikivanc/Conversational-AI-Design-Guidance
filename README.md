@@ -81,7 +81,34 @@ A card that can play animated GIFs or short videos.
 |----|----|
 | ![](images/thumbnailcard.png) | C# sample: [Using Cards][2] |
 
+### Card List
+| UI Screenshot | Code Samples |
+|----|----|
+| ![](images/thumbnailcard.png) | C# sample: [Using Cards][2] |
+
+
+
 # Conversation User Experiences
+
+## Natural Language Processing
+
+LUIS
+
+## Question and Answering
+
+QnAMaker
+
+## Search
+
+Azure Search
+
+## Authentication
+
+Authentication
+
+
+## Dialogs
+
 
 ## Guided Conversation Experience
 Guided Conversation | Code Sample|

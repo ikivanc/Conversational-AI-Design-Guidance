@@ -7,6 +7,12 @@
 |----|----|
 | ![Adaptive Card Image](images/welcomemessage.png) | C# sample: [Welcome Message][3] |
 
+## Bot Typing Experience
+| UI Screenshot | Code Samples |
+|----|----|
+| ![Adaptive Card Image](images/welcomemessage.png) | C# sample: [Welcome Message][3] |
+
+
 ## Prompts
 ### Simple Prompt
 | UI Screenshot | Code Samples |

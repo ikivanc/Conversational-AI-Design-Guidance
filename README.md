@@ -10,7 +10,7 @@
 ## Bot Typing Experience
 | UI Screenshot | Code Samples |
 |----|----|
-| ![Adaptive Card Image](images/welcomemessage.png) | C# sample: [Welcome Message][3] |
+| ![](images/TypingActivity.png) | C# sample: [Send Typing Activity][10] |
 
 
 ## Prompts
@@ -117,6 +117,7 @@ Authentication
 
 
 ## Guided Conversation Experience
+
 Guided Conversation | Code Sample|
 :-------------------------:|:-----------:|
 ![](images/dialog.png)  | C# sample: [Digital Travel Assistant][7]
@@ -137,6 +138,12 @@ On the right side, the question includes only "number of guests" and "Region" an
 ![](images/luisdialog.png)  |  ![](images/luisdialog2.png) | C# sample: [Digital Travel Assistant][7]
 
 
+## Nested Conversation Dialogs
+Nested Conversation Dialogs | Code Sample|
+-------------------------|-----------|
+![](images/DonateDialog.gif)  | C# sample: [MenuBot C#][8] <br/> JS sample: [MenuBot JS][9]
+
+Enjoy.
 
 [1]: https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/07.using-adaptive-cards
 [2]: https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/06.using-cards
@@ -145,3 +152,6 @@ On the right side, the question includes only "number of guests" and "Region" an
 [5]: https://github.com/Microsoft/BotBuilder-Samples/blob/master/samples/csharp_dotnetcore/05.multi-turn-prompt
 [6]: https://github.com/Microsoft/BotBuilder-Samples/blob/master/samples/csharp_dotnetcore/08.suggested-actions
 [7]: https://github.com/ikivanc/Digital-Travel-Assistant
+[8]: https://github.com/ikivanc/menu-bot/tree/master/csharp_dotnetcore
+[9]: https://github.com/ikivanc/menu-bot/tree/master/javascript_nodejs
+[10]: https://gist.github.com/ikivanc/697d6c38871819b8b31e4bbc481f24c9

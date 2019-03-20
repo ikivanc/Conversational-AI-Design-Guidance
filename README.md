@@ -1,20 +1,30 @@
 # Conversational AI Design Guidance
 
+Azure Bot Service enables you to build intelligent, enterprise-grade bots with complete ownership and control of your data. Begin with a simple Q&A bot or build a sophisticated virtual assistant.
+
+In this Conversational AI UX guidance you'll find what are the best practices to build conversational AI for your bot.
 
 ## Welcome Experience
+
+Send a message to your user once they join the conversation. 
 
 | UI Screenshot | Code Samples |
 |----|----|
 | ![Adaptive Card Image](images/welcomemessage.png) | C# sample: [Welcome Message][3] |
 
 ## Bot Typing Experience
+
+It's always great to give human-like impression, typing experince from bot.
+
 | UI Screenshot | Code Samples |
 |----|----|
 | ![](images/TypingActivity.png) | C# sample: [Send Typing Activity][10] |
 
 
 ## Prompts
+A conversation between a bot and a user often involves asking (prompting) the user for information, parsing the user's response, and then acting on that information.
 
+Your bot should track the context of a conversation, so that it can manage its behavior and remember answers to previous questions. A bot's state is information it tracks to respond appropriately to incoming messages.
 
 ### Text Prompt
 Asks for general text input.
@@ -26,9 +36,10 @@ Asks for general text input.
 
 ### Number Prompt
 Asks for a number.
+
 | UI Screenshot | Code Samples |
 |----|----|
-| ![](images/number-prompt.png) | C# sample:  |
+| ![](images/number-prompt.png) | C# sample:   |
 
 ### DateTime Prompt
 Asks for a date-time.
@@ -47,26 +58,29 @@ Asks for a confirmation.
 Asks for one or more attachments, such as a document or image.
 
 ### Simple Prompt
+
 | UI Screenshot | Code Samples |
 |----|----|
 | ![Adaptive Card Image](images/SimplePrompt.png) | C# sample: [Simple Prompt][4] |
 
 ### Multi Prompt
+
 | UI Screenshot | Code Samples |
 |----|----|
 | ![Adaptive Card Image](images/MultiplePrompt.png) | C# sample: [Multi-Turn Prompt][5] |
 
 ### Validation Prompt
+
 | UI Screenshot | Code Samples |
 |----|----|
 | ![](images/validation-prompt.png) | C# sample: [Validation Prompt][12] |
 
 
-
 ## Suggested Action
+
 | UI Screenshot | Code Samples |
 |----|----|
-| ![Adaptive Card Image](images/SuggestedCard.png) | C# sample: [Suggested Action][6] |
+| ![Suggested Cards](images/SuggestedCard.png) | C# sample: [Suggested Action][6] |
 
 
 ## AdaptiveCard
@@ -85,42 +99,50 @@ A card that can play animated GIFs or short videos.
 | ![](images/animationcard.png) | C# sample: [Using Cards][2] |
 
 ### AudioCard
+
 | UI Screenshot | Code Samples |
 |----|----|
 | ![](images/audiocard.png) | C# sample: [Using Cards][2] |
 
 ### Hero Card
+
 | UI Screenshot | Code Samples |
 |----|----|
 | ![](images/herocard.png) | C# sample: [Using Cards][2] |
 
 ### ThumbnailCard
+
 | UI Screenshot | Code Samples |
 |----|----|
 | ![](images/thumbnailcardalt.png) | C# sample: [Using Cards][2] |
 
 ### RecieptCard
+
 | UI Screenshot | Code Samples |
 |----|----|
 | ![](images/.png) | C# sample: [Using Cards][2] |
 
 ### SignInCard
+
 | UI Screenshot | Code Samples |
 |----|----|
 | ![](images/signincard.png) | C# sample: [Using Cards][2] |
 
 
 ### VideoCard
+
 | UI Screenshot | Code Samples |
 |----|----|
 | ![](images/Videocard.png) | C# sample: [Using Cards][2] |
 
 ### CardCarousel
+
 | UI Screenshot | Code Samples |
 |----|----|
 | ![](images/CarouselCard.png) | C# sample: [Using Cards][2] |
 
 ### Card List
+
 | UI Screenshot | Code Samples |
 |----|----|
 | ![](images/ListCard.png) | C# sample: [Using Cards][2] |
@@ -131,23 +153,24 @@ A card that can play animated GIFs or short videos.
 
 ## Natural Language Processing
 
-LUIS
+Designed to identify valuable information in conversations, LUIS interprets user goals (intents) and distills valuable information from sentences (entities), for a high quality, nuanced language model. LUIS integrates seamlessly with the Azure Bot Service, making it easy to create a sophisticated bot.
+
 
 ## Question and Answering
 
-QnAMaker
+Build, train and publish a simple question and answer bot based on FAQ URLs, structured documents, product manuals or editorial content in minutes.
 
 ## Search
 
-Azure Search
+Azure Search is a search-as-a-service cloud solution that gives developers APIs and tools for adding a rich search experience over private, heterogenous content in web, mobile, and enterprise applications. Query execution is over a user-defined index.
 
 ## Authentication
 
-Authentication
+New bot authentication capabilities in Azure Bot Service, providing features to make it easier to develop a bot that authenticates users to various identity providers such as Azure AD (Azure Active Directory), GitHub, Uber, and so on. These updates also take steps towards an improved user experience by eliminating the magic code verification for some clients.
 
 
 ## Dialogs
-
+Dialogs are a central concept in the SDK, and provide a useful way to manage a conversation with the user. Dialogs are structures in your bot that act like functions in your bot's program; each dialog is designed to perform a specific task, in a specific order. You can specify the order of individual dialogs to guide the conversation, and invoke them in different ways - sometimes in response to a user, sometimes in response to some outside stimuli, or from other dialogs.
 
 ## Guided Conversation Experience
 
@@ -156,12 +179,14 @@ Guided Conversation | Code Sample|
 ![](images/dialog.png)  | C# sample: [Digital Travel Assistant][7]
 
 ## LUIS + Guided Conversation Experience
+
 Guided Conversation | Code Sample|
 :-------------------------:|:-----------:|
 ![](images/luisdialog1.png)  | C# sample: [Digital Travel Assistant][7]
 
 
 ## LUIS Experience
+
 Dynamic Conversations with multiple inputs managed in WaterFall Dialogs to provide only needed prompts to retrieve information.
 On the left side , a question including "number of guests", "Region" , "Check-in Date" and "Check-out Date", then agent asks only needed questions. 
 On the right side, the question includes only "number of guests" and "Region" and then agent ask questions to complete them.
@@ -170,8 +195,8 @@ On the right side, the question includes only "number of guests" and "Region" an
 :-------------------------:|:-------------------------:|:-----------:|
 ![](images/luisdialog.png)  |  ![](images/luisdialog2.png) | C# sample: [Digital Travel Assistant][7]
 
-
 ## Nested Conversation Dialogs
+
 Nested Conversation Dialogs | Code Sample|
 -------------------------|-----------|
 ![](images/DonateDialog.gif)  | C# sample: [MenuBot C#][8] <br/> JS sample: [MenuBot JS][9]

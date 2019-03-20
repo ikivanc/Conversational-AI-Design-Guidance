@@ -14,20 +14,53 @@
 
 
 ## Prompts
+
+
+### Text Prompt
+Asks for general text input.
+
+| UI Screenshot | Code Samples |
+|----|----|
+| ![](images/SimplePrompt.png) | C# sample: [Simple Prompt][4] |
+
+
+### Number Prompt
+Asks for a number.
+| UI Screenshot | Code Samples |
+|----|----|
+| ![](images/number-prompt.png) | C# sample:  |
+
+### DateTime Prompt
+Asks for a date-time.
+
+| UI Screenshot | Code Samples |
+|----|----|
+| ![](images/datetime-prompt.png) | C# sample:  |
+
+### Choice Prompt
+Asks for a choice from a set of options.
+
+### Confirm Prompt
+Asks for a confirmation.
+
+### Attachment Prompt
+Asks for one or more attachments, such as a document or image.
+
 ### Simple Prompt
 | UI Screenshot | Code Samples |
 |----|----|
-| ![Adaptive Card Image](images/welcomemessage.png) | C# sample: [Simple Prompt][4] |
+| ![Adaptive Card Image](images/SimplePrompt.png) | C# sample: [Simple Prompt][4] |
 
 ### Multi Prompt
 | UI Screenshot | Code Samples |
 |----|----|
-| ![Adaptive Card Image](images/welcomemessage.png) | C# sample: [Multi-Turn Prompt][5] |
+| ![Adaptive Card Image](images/MultiplePrompt.png) | C# sample: [Multi-Turn Prompt][5] |
 
-### Text Prompt
-### DateTime Prompt
-### Choice Prompt
-### Confirm Prompt
+### Validation Prompt
+| UI Screenshot | Code Samples |
+|----|----|
+| ![](images/validation-prompt.png) | C# sample: [Validation Prompt][12] |
+
 
 
 ## Suggested Action
@@ -49,12 +82,12 @@ A card that can play animated GIFs or short videos.
 
 | UI Screenshot | Code Samples |
 |----|----|
-| ![](images/thumbnailcard.png) | C# sample: [Using Cards][2] |
+| ![](images/animationcard.png) | C# sample: [Using Cards][2] |
 
 ### AudioCard
 | UI Screenshot | Code Samples |
 |----|----|
-| ![](images/thumbnailcard.png) | C# sample: [Using Cards][2] |
+| ![](images/audiocard.png) | C# sample: [Using Cards][2] |
 
 ### Hero Card
 | UI Screenshot | Code Samples |
@@ -64,33 +97,33 @@ A card that can play animated GIFs or short videos.
 ### ThumbnailCard
 | UI Screenshot | Code Samples |
 |----|----|
-| ![](images/thumbnailcard.png) | C# sample: [Using Cards][2] |
+| ![](images/thumbnailcardalt.png) | C# sample: [Using Cards][2] |
 
 ### RecieptCard
 | UI Screenshot | Code Samples |
 |----|----|
-| ![](images/thumbnailcard.png) | C# sample: [Using Cards][2] |
+| ![](images/.png) | C# sample: [Using Cards][2] |
 
 ### SignInCard
 | UI Screenshot | Code Samples |
 |----|----|
-| ![](images/thumbnailcard.png) | C# sample: [Using Cards][2] |
+| ![](images/signincard.png) | C# sample: [Using Cards][2] |
 
 
 ### VideoCard
 | UI Screenshot | Code Samples |
 |----|----|
-| ![](images/thumbnailcard.png) | C# sample: [Using Cards][2] |
+| ![](images/Videocard.png) | C# sample: [Using Cards][2] |
 
 ### CardCarousel
 | UI Screenshot | Code Samples |
 |----|----|
-| ![](images/thumbnailcard.png) | C# sample: [Using Cards][2] |
+| ![](images/CarouselCard.png) | C# sample: [Using Cards][2] |
 
 ### Card List
 | UI Screenshot | Code Samples |
 |----|----|
-| ![](images/thumbnailcard.png) | C# sample: [Using Cards][2] |
+| ![](images/ListCard.png) | C# sample: [Using Cards][2] |
 
 
 
@@ -155,3 +188,5 @@ Enjoy.
 [8]: https://github.com/ikivanc/menu-bot/tree/master/csharp_dotnetcore
 [9]: https://github.com/ikivanc/menu-bot/tree/master/javascript_nodejs
 [10]: https://gist.github.com/ikivanc/697d6c38871819b8b31e4bbc481f24c9
+[11]: https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/10.prompt-validations
+[12]: https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-prompts?view=azure-bot-service-4.0&tabs=csharp#custom-validation

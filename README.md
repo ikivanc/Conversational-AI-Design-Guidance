@@ -88,7 +88,7 @@ An open card exchange format rendered as a JSON object. Typically used for cross
 
 | UI Screenshot | Code Samples |
 |----|----|
-| ![Adaptive Card Image](images/adaptivecard.png) | C# sample: [Using Adaptive Cards][1] |
+| ![Adaptive Card Image](images/AdaptiveCard.png) | C# sample: [Using Adaptive Cards][1] |
 
 ## Cards
 ### AnimationCard
@@ -96,44 +96,44 @@ A card that can play animated GIFs or short videos.
 
 | UI Screenshot | Code Samples |
 |----|----|
-| ![](images/animationcard.png) | C# sample: [Using Cards][2] |
+| ![](images/AnimationCard.png) | C# sample: [Using Cards][2] |
 
 ### AudioCard
 
 | UI Screenshot | Code Samples |
 |----|----|
-| ![](images/audiocard.png) | C# sample: [Using Cards][2] |
+| ![](images/AudioCard.png) | C# sample: [Using Cards][2] |
 
 ### Hero Card
 
 | UI Screenshot | Code Samples |
 |----|----|
-| ![](images/herocard.png) | C# sample: [Using Cards][2] |
+| ![](images/HeroCard.png) | C# sample: [Using Cards][2] |
 
 ### ThumbnailCard
 
 | UI Screenshot | Code Samples |
 |----|----|
-| ![](images/thumbnailcardalt.png) | C# sample: [Using Cards][2] |
+| ![](images/ThumbnailCardAlt.png) | C# sample: [Using Cards][2] |
 
 ### RecieptCard
 
 | UI Screenshot | Code Samples |
 |----|----|
-| ![](images/.png) | C# sample: [Using Cards][2] |
+| ![](images/ReceiptCard.png) | C# sample: [Using Cards][2] |
 
 ### SignInCard
 
 | UI Screenshot | Code Samples |
 |----|----|
-| ![](images/signincard.png) | C# sample: [Using Cards][2] |
+| ![](images/SignInCard.png) | C# sample: [Using Cards][2] |
 
 
 ### VideoCard
 
 | UI Screenshot | Code Samples |
 |----|----|
-| ![](images/Videocard.png) | C# sample: [Using Cards][2] |
+| ![](images/VideoCard.png) | C# sample: [Using Cards][2] |
 
 ### CardCarousel
 
@@ -164,9 +164,20 @@ Build, train and publish a simple question and answer bot based on FAQ URLs, str
 
 Azure Search is a search-as-a-service cloud solution that gives developers APIs and tools for adding a rich search experience over private, heterogenous content in web, mobile, and enterprise applications. Query execution is over a user-defined index.
 
+
+Search Experience  | Code Sample|
+:-------------------------:|:-----------:|
+![Azure Search](images/AzureSearch.png)  | C# sample: [Azure Search with Bot Framework][13]
+
+
 ## Authentication
 
 New bot authentication capabilities in Azure Bot Service, providing features to make it easier to develop a bot that authenticates users to various identity providers such as Azure AD (Azure Active Directory), GitHub, Uber, and so on. These updates also take steps towards an improved user experience by eliminating the magic code verification for some clients.
+
+
+| UI Screenshot | Code Samples |
+|----|----|
+| ![SignIn Authentication](images/SignInCard.png) | C# sample: [Bot Authentication][14] |
 
 
 ## Dialogs
@@ -215,3 +226,5 @@ Enjoy.
 [10]: https://gist.github.com/ikivanc/697d6c38871819b8b31e4bbc481f24c9
 [11]: https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/10.prompt-validations
 [12]: https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-prompts?view=azure-bot-service-4.0&tabs=csharp#custom-validation
+[13]: https://github.com/ikivanc/Bot-Framework-v4-with-Azure-Search/
+[14]: https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/18.bot-authentication

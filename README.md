@@ -4,13 +4,17 @@ Azure Bot Service enables you to build intelligent, enterprise-grade bots with c
 
 In this Conversational AI UX guidance you'll find what are the best practices to build conversational AI for your bot.
 
+> This document is still under development.
+
+---
+
 ## Welcome Experience
 
 Send a message to your user once they join the conversation. 
 
 | UI Screenshot | Code Samples |
 |----|----|
-| ![Adaptive Card Image](images/welcomemessage.png) | C# sample: [Welcome Message][3] |
+| ![Adaptive Card Image](images/welcomemessage.png) | C# sample: [Welcome Message][3] <br/>  JS sample: [Welcome Message][60] |
 
 ## Bot Typing Experience
 
@@ -20,6 +24,7 @@ It's always great to give human-like impression, typing experince from bot.
 |----|----|
 | ![](images/TypingActivity.png) | C# sample: [Send Typing Activity][10] |
 
+---
 
 ## Prompts
 A conversation between a bot and a user often involves asking (prompting) the user for information, parsing the user's response, and then acting on that information.
@@ -51,8 +56,17 @@ Asks for a date-time.
 ### Choice Prompt
 Asks for a choice from a set of options.
 
+| UI Screenshot | Code Samples |
+|----|----|
+| ![Choice Prompt](images/ChoicePrompt.png) | C# sample: [Digital Travel Assistant][7]|
+
+
 ### Confirm Prompt
 Asks for a confirmation.
+
+| UI Screenshot | Code Samples |
+|----|----|
+| ![Confirm Prompt](images/ConfirmPrompt.png) | C# sample: [Multi-Turn Prompt][5] |
 
 ### Attachment Prompt
 Asks for one or more attachments, such as a document or image.
@@ -75,6 +89,7 @@ Asks for one or more attachments, such as a document or image.
 |----|----|
 | ![](images/validation-prompt.png) | C# sample: [Validation Prompt][12] |
 
+---
 
 ## Suggested Action
 
@@ -88,7 +103,7 @@ An open card exchange format rendered as a JSON object. Typically used for cross
 
 | UI Screenshot | Code Samples |
 |----|----|
-| ![Adaptive Card Image](images/AdaptiveCard.png) | C# sample: [Using Adaptive Cards][1] |
+|![Adaptive Card Image](images/AdaptiveCardUI.png) | C# sample: [Using Adaptive Cards][1] |
 
 ## Cards
 ### AnimationCard
@@ -108,13 +123,13 @@ A card that can play animated GIFs or short videos.
 
 | UI Screenshot | Code Samples |
 |----|----|
-| ![](images/HeroCard.png) | C# sample: [Using Cards][2] |
+| ![](images/HeroCard.png) | C# sample: [Using Cards][2] <br/> Code Snippet: [HeroCard][41] |
 
 ### ThumbnailCard
 
 | UI Screenshot | Code Samples |
 |----|----|
-| ![](images/ThumbnailCardAlt.png) | C# sample: [Using Cards][2] |
+| ![](images/ThumbnailCardAlt.png) | C# sample: [Using Cards][2] <br/> Code Snippet: [ThumbnailCard][40] |
 
 ### RecieptCard
 
@@ -147,7 +162,7 @@ A card that can play animated GIFs or short videos.
 |----|----|
 | ![](images/ListCard.png) | C# sample: [Using Cards][2] |
 
-
+---
 
 # Conversation User Experiences
 
@@ -155,10 +170,13 @@ A card that can play animated GIFs or short videos.
 
 Designed to identify valuable information in conversations, LUIS interprets user goals (intents) and distills valuable information from sentences (entities), for a high quality, nuanced language model. LUIS integrates seamlessly with the Azure Bot Service, making it easy to create a sophisticated bot.
 
+---
 
 ## Question and Answering
 
 Build, train and publish a simple question and answer bot based on FAQ URLs, structured documents, product manuals or editorial content in minutes.
+
+---
 
 ## Search
 
@@ -169,6 +187,7 @@ Search Experience  | Code Sample|
 :-------------------------:|:-----------:|
 ![Azure Search](images/AzureSearch.png)  | C# sample: [Azure Search with Bot Framework][13]
 
+---
 
 ## Authentication
 
@@ -179,6 +198,7 @@ New bot authentication capabilities in Azure Bot Service, providing features to 
 |----|----|
 | ![SignIn Authentication](images/SignInCard.png) | C# sample: [Bot Authentication][14] |
 
+---
 
 ## Dialogs
 Dialogs are a central concept in the SDK, and provide a useful way to manage a conversation with the user. Dialogs are structures in your bot that act like functions in your bot's program; each dialog is designed to perform a specific task, in a specific order. You can specify the order of individual dialogs to guide the conversation, and invoke them in different ways - sometimes in response to a user, sometimes in response to some outside stimuli, or from other dialogs.
@@ -228,3 +248,6 @@ Enjoy.
 [12]: https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-prompts?view=azure-bot-service-4.0&tabs=csharp#custom-validation
 [13]: https://github.com/ikivanc/Bot-Framework-v4-with-Azure-Search/
 [14]: https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/18.bot-authentication
+[40]: https://gist.github.com/ikivanc/0d10161bb0fccaa601b89adcaf86beb6
+[41]: https://gist.github.com/ikivanc/dbad21d4266b9b735e48b1410052dd14
+[60]: https://github.com/Microsoft/BotBuilder-Samples/blob/master/samples/javascript_nodejs/03.welcome-users

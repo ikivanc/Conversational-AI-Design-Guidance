@@ -4,7 +4,48 @@ Azure Bot Service enables you to build intelligent, enterprise-grade bots with c
 
 In this Conversational AI UX guidance you'll find what are the best practices to build conversational AI for your bot.
 
-> This document is still under development.
+> **This document is still under development.**
+
+---
+
+## Contents
+
+- [Welcome Experience](#welcome-experience)
+- [Bot Typing Experience](#Bot-Typing-Experience)
+- [Prompts](#Prompts)
+    - [Text Prompt](#Text-Prompt)
+    - [Number Prompt](#Number-Prompt)
+    - [DateTime Prompt](#DateTime-Prompt)
+    - [Choice Prompt](#Choice-Prompt)
+    - [Confirm Prompt](#Confirm-Prompt)
+    - [Attachment Prompt](#Attachment-Prompt)
+    - [Simple Prompt](#Simple-Prompt)
+    - [Multi Prompt](#Multi-Prompt)
+    - [Validation Prompt](#Validation-Prompt)
+- [Suggested Action](#Suggested-Action)
+
+- [Cards](#Cards)
+    - [AdaptiveCard](#AdaptiveCard)
+    - [AnimationCard](#AnimationCard)
+    - [AudioCard](#AudioCard)
+    - [Hero Card](#Hero-Card)
+    - [ThumbnailCard](#ThumbnailCard)
+    - [RecieptCard](#RecieptCard)
+    - [SignInCard](#SignInCard)
+    - [VideoCard](#VideoCard)
+    - [CardCarousel](#CardCarousel)
+    - [Card List](#Card-List)
+
+- [Conversation User Experiences](#Conversation-User-Experiences)
+    - [Natural Language Processing](#Natural-Language-Processing)
+    - [Question and Answering](#Question-and-Answering)
+    - [Search](#Search)
+    - [Authentication](#Authentication)
+    - [Dialogs](#Dialogs)
+        - [Guided Conversation Experience](#Guided-Conversation-Experience)
+        - [LUIS + Guided Conversation Experience](#LUIS-+-Guided-Conversation-Experience)
+        - [LUIS Experience](#LUIS-Experience)
+        - [Nested Conversation Dialogs](#Nested-Conversation-Dialogs)
 
 ---
 
@@ -30,6 +71,8 @@ It's always great to give human-like impression, typing experince from bot.
 A conversation between a bot and a user often involves asking (prompting) the user for information, parsing the user's response, and then acting on that information.
 
 Your bot should track the context of a conversation, so that it can manage its behavior and remember answers to previous questions. A bot's state is information it tracks to respond appropriately to incoming messages.
+
+![](images/bot-builder-dialog-classes.png)
 
 ### Text Prompt
 Asks for general text input.
@@ -98,14 +141,15 @@ Asks for one or more attachments, such as a document or image.
 | ![Suggested Cards](images/SuggestedCard.png) | C# sample: [Suggested Action][6] |
 
 
-## AdaptiveCard
+
+## Cards
+### AdaptiveCard
 An open card exchange format rendered as a JSON object. Typically used for cross-channel deployment of cards. Cards adapt to the look and feel of each host channel.
 
 | UI Screenshot | Code Samples |
 |----|----|
 |![Adaptive Card Image](images/AdaptiveCardUI.png) | C# sample: [Using Adaptive Cards][1] |
 
-## Cards
 ### AnimationCard
 A card that can play animated GIFs or short videos.
 

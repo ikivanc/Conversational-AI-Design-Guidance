@@ -4,6 +4,23 @@ Azure Bot Service enables you to build intelligent, enterprise-grade bots with c
 
 In this Conversational AI UX guidance you'll find what are the best practices to build conversational AI for your bot.
 
+First of all here is list of Components of a conversational AI experience
+
+![](images/BotFrameworkDiagram.png)
+
+
+And all necessary info for a Bot's life cycle.
+
+![](images/BotLifeCycle.png)
+
+
+| Design | Build | Test | Publish | Connnect | Evaluate |
+|----|---|----|----|----|----|
+| <ul><li><a href="https://aka.ms/bot-framework-emulator-design-guidelines">Design guidelines</a></li><li><a href="https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart">Quick start with Azure</a></li><li><a href="https://docs.microsoft.com/en-us/azure/bot-service/dotnet/bot-builder-dotnet-sdk-quickstart">Quick start with .NET SDK</a></li><li><a href="https://docs.microsoft.com/en-us/azure/bot-service/javascript/bot-builder-javascript-quickstart">Quick start with Node.JS</a></li><li><a href="https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-basic-deploy">Tutorials</a></li></ul> | <ul><li><a href="https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore">C#.NET Samples</a></li><li><a href="https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/javascript_nodejs">C#.NET Samples</a></li><li><a href="https://azure.microsoft.com/en-us/services/cognitive-services/">Cognitive Services</a></li><li><a href="https://github.com/Microsoft/AI">Solutions </a></li></ul> | <ul><li><a href="https://github.com/Microsoft/BotFramework-Emulator">Test in Emulator</a></li><li><a href="https://github.com/Microsoft/BotFramework-WebChat">Test in Web Chat</a></li></ul> | <ul><li><a href="https://aka.ms/bot-framework-emulator-publish-Azure">Publish directly to Azure</a></li><li><a href="https://aka.ms/bot-framework-emulator-publish-continuous-deployment">Use Continuous Deployment</a></li></ul> | <li><a href="https://aka.ms/bot-framework-emulator-connect-channels">Connect to Channels</a></li> | <li><a href="https://aka.ms/bot-framework-emulator-bot-analytics">View Analytics</a></li> |
+
+
+
+
 > **This document is still under development.**
 
 ---

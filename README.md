@@ -21,7 +21,7 @@ And all necessary info for a Bot's life cycle.
 
 
 
-> **This document is still under development.**
+> **This document is still under development.** NLP, QnA, Search and Authentication parts will be updated.
 
 ---
 
@@ -104,14 +104,14 @@ Asks for a number.
 
 | UI Screenshot | Code Samples |
 |----|----|
-| ![](images/number-prompt.png) | C# sample:   |
+| ![](images/number-prompt.png) | C# sample: [Multi-Turn Prompt][5]   |
 
 ### DateTime Prompt
 Asks for a date-time.
 
 | UI Screenshot | Code Samples |
 |----|----|
-| ![](images/datetime-prompt.png) | C# sample:  |
+| ![](images/datetime-prompt.png) | C# sample: [Multi-Turn Prompt][5] |
 
 ### Choice Prompt
 Asks for a choice from a set of options.
